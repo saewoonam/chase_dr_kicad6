@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x02_Male_2.54mm,PinHeader_1x02_P2.54mm_Horizontal,119.0,-62.6,180.0,top
+J2,Conn_01x02_Male_2.54mm,PinHeader_1x02_P2.54mm_Horizontal,127.3,-62.5,180.0,top
+J3,DB25_Male_MountingHoles,581M25113L461_Norcomp,157.0,-67.6,180.0,top
+J4,DB25_Female_MountingHoles,581M25213L461_Norcomp_Female,157.0,-73.25,0.0,top

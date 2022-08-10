@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5300 4000 5300 4500
+Wire Wire Line
+	5300 4500 4350 4500
+Wire Wire Line
+	4350 4500 4350 4100
+Wire Wire Line
+	4350 4100 4450 4100
+$Comp
+L 0JLC-6:100nF C?
+U 1 1 621A9105
+P 7450 4500
+AR Path="/621A9105" Ref="C?"  Part="1" 
+AR Path="/621A3D17/621A9105" Ref="C8"  Part="1" 
+AR Path="/624D2E5E/621A9105" Ref="C10"  Part="1" 
+F 0 "C8" V 7198 4500 50  0000 C CNN
+F 1 "100nF" V 7289 4500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7488 4350 50  0001 C CNN
+F 3 "~" H 7450 4500 50  0001 C CNN
+F 4 "C14663" H 7450 4500 50  0001 C CNN "LCSC"
+F 5 "CC0603KRX7R9BB104" H 7450 4500 50  0001 C CNN "MPN"
+	1    7450 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 621A910B
+P 7450 4650
+AR Path="/621A910B" Ref="#PWR?"  Part="1" 
+AR Path="/621A3D17/621A910B" Ref="#PWR0114"  Part="1" 
+AR Path="/624D2E5E/621A910B" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0114" H 7450 4400 50  0001 C CNN
+F 1 "GND" V 7455 4522 50  0000 R CNN
+F 2 "" H 7450 4650 50  0001 C CNN
+F 3 "" H 7450 4650 50  0001 C CNN
+	1    7450 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 621A9117
+P 7450 4350
+AR Path="/621A9117" Ref="#PWR?"  Part="1" 
+AR Path="/621A3D17/621A9117" Ref="#PWR0115"  Part="1" 
+AR Path="/624D2E5E/621A9117" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0115" H 7450 4200 50  0001 C CNN
+F 1 "VCC" H 7467 4523 50  0000 C CNN
+F 2 "" H 7450 4350 50  0001 C CNN
+F 3 "" H 7450 4350 50  0001 C CNN
+	1    7450 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3900 4200 3900
+Wire Wire Line
+	5300 5250 5050 5250
+Wire Wire Line
+	5300 5250 5300 5750
+Wire Wire Line
+	5300 5750 4350 5750
+Wire Wire Line
+	4350 5750 4350 5350
+Wire Wire Line
+	4350 5350 4450 5350
+Wire Wire Line
+	4450 5150 4200 5150
+Wire Wire Line
+	3600 4250 4200 4250
+Wire Wire Line
+	4200 4250 4200 3900
+Connection ~ 4200 3900
+Wire Wire Line
+	4200 3900 4100 3900
+Wire Wire Line
+	4200 5150 4200 4650
+Wire Wire Line
+	4200 4650 3600 4650
+Connection ~ 4200 5150
+Wire Wire Line
+	4200 5150 4100 5150
+Wire Wire Line
+	5050 4000 5300 4000
+Wire Wire Line
+	6000 4000 6000 4450
+Connection ~ 5300 4000
+Wire Wire Line
+	5300 4000 6000 4000
+Wire Wire Line
+	6000 5250 5300 5250
+Wire Wire Line
+	6000 4550 6000 5250
+Connection ~ 5300 5250
+Text HLabel 3600 4250 0    50   Input ~ 0
+in+
+Text HLabel 3600 4650 0    50   Input ~ 0
+in-
+Text HLabel 6000 4450 2    50   Output ~ 0
+out+
+Text HLabel 6000 4550 2    50   Output ~ 0
+out-
+$Comp
+L Amplifier_Operational:OPA2376xxDGK U5
+U 1 1 629B9402
+P 4750 5250
+F 0 "U5" H 4750 5617 50  0000 C CNN
+F 1 "OPA2376xxDGK" H 4750 5526 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4750 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa333.pdf" H 4750 5250 50  0001 C CNN
+F 4 "C46316" H 4750 5250 50  0001 C CNN "LCSC"
+F 5 "OPA2376AIDR" H 4750 5250 50  0001 C CNN "MPN"
+	1    4750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:OPA2376xxDGK U5
+U 2 1 629BB011
+P 4750 4000
+F 0 "U5" H 4750 4367 50  0000 C CNN
+F 1 "OPA2376xxDGK" H 4750 4276 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4750 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa333.pdf" H 4750 4000 50  0001 C CNN
+F 4 "C46316" H 4750 4000 50  0001 C CNN "LCSC"
+F 5 "OPA2376AIDR" H 4750 4000 50  0001 C CNN "MPN"
+	2    4750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:OPA2376xxDGK U5
+U 3 1 629BF566
+P 8150 4650
+F 0 "U5" H 8108 4696 50  0000 L CNN
+F 1 "OPA2376xxDGK" H 8108 4605 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8150 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa333.pdf" H 8150 4650 50  0001 C CNN
+F 4 "C46316" H 8150 4650 50  0001 C CNN "LCSC"
+F 5 "OPA2376AIDR" H 8150 4650 50  0001 C CNN "MPN"
+	3    8150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 629C2B33
+P 8050 4950
+AR Path="/629C2B33" Ref="#PWR?"  Part="1" 
+AR Path="/621A3D17/629C2B33" Ref="#PWR0112"  Part="1" 
+AR Path="/624D2E5E/629C2B33" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0112" H 8050 4700 50  0001 C CNN
+F 1 "GND" V 8055 4822 50  0000 R CNN
+F 2 "" H 8050 4950 50  0001 C CNN
+F 3 "" H 8050 4950 50  0001 C CNN
+	1    8050 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4350 7450 4350
+Connection ~ 7450 4350
+$EndSCHEMATC

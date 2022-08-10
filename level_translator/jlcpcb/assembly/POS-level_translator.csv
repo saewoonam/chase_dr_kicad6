@@ -1,0 +1,13 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,161.7,-84.3,180.0,top
+C2,100nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,167.6,-84.3,0.0,top
+C3,4.7uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,155.9375,-79.9,180.0,top
+C4,10uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,167.7,-72.7,180.0,top
+C5,1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,176.1,-75.3,0.0,top
+C6,1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,176.2,-80.9,0.0,top
+J1,Conn_01x05_Male,PinHeader_1x05_P2.54mm_Horizontal,151.1,-97.5,270.0,top
+J2,Conn_01x05_Female,PinSocket_1x05_P2.54mm_Horizontal,176.3,-97.5,90.0,top
+L1,6.8uF,L_1210_3225Metric_Pad1.42x2.65mm_HandSolder,156.1,-76.5,0.0,top
+PS1,B0305S-1WR2,Converter_DCDC_Murata_CRE1xxxxxx3C_THT,161.0,-79.6,180.0,top
+U1,pi141x3x,SOIC-16_3.9x9.9mm_P1.27mm,164.61,-90.5,270.0,top
+U2,~,SOT-23-5,175.4,-78.0,180.0,top

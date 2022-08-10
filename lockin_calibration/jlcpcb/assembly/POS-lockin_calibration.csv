@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,JST_SRSS_Conn_01x04_bridge_horizontal_2,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,145.0,-93.0,270.0,top
+R1,20K_0.1%,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,157.0,-91.0,90.0,top
+R2,1K 0.1%,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,152.0,-91.0875,90.0,top
+R3,10K 0.05%,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,161.0,-91.0875,90.0,top

@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC
+10uF,C4,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C13585
+Conn_01x05_Male,J1,PinHeader_1x05_P2.54mm_Horizontal,C138801
+100nF,"C1,C2",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663
+1uF,"C5,C6",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C15849
+4.7uF,C3,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C29823
+Conn_01x05_Female,J2,PinSocket_1x05_P2.54mm_Horizontal,C35167
+pi141x3x,U1,SOIC-16_3.9x9.9mm_P1.27mm,C471602
+~,U2,SOT-23-5,C529554
+B0305S-1WR2,PS1,Converter_DCDC_Murata_CRE1xxxxxx3C_THT,C80854
+6.8uF,L1,L_1210_3225Metric_Pad1.42x2.65mm_HandSolder,C87559

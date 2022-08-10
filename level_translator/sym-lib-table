@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "uart_mux-rescue")(type "Legacy")(uri "/Users/nams/Documents/projects/kicad6/chase_dr/uart_mux_v2/uart_mux-rescue.lib")(options "")(descr ""))
+)
