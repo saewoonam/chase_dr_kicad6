@@ -1160,10 +1160,10 @@
     (property "Reference" "U1" (id 0) (at 110.9854 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 110.9854 35.56 0)
+    (property "Value" "FM24C64C" (id 1) (at 110.9854 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 108.966 45.974 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 108.966 45.974 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.cypress.com/file/41651/download" (id 3) (at 103.886 37.084 0)
@@ -1406,29 +1406,35 @@
     (path "/00000000-0000-0000-0000-00006246d1d8"
       (reference "R2") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
+    (path "/00000000-0000-0000-0000-000059ed3d7b/cb59bfe4-78b3-4525-a18e-6016f07a38e4"
+      (reference "R3") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000059ed3d7b/393f0e56-c2d5-4ea4-8463-50265bc94d2d"
+      (reference "R4") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-000059ed3d7b/00000000-0000-0000-0000-000059ed1265"
-      (reference "R3") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R5") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000059ed3d7b/00000000-0000-0000-0000-000059ed126c"
-      (reference "R4") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R6") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/5aa91f3c-0195-4e75-88c2-51064725621d"
-      (reference "R5") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R7") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/cc9e71ff-e12c-4106-95ad-954289c2f7e3"
-      (reference "R6") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R8") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/a90a73b8-661a-4ba5-948b-2c2ada5eb5a5"
-      (reference "R7") (unit 1) (value "125K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R9") (unit 1) (value "125K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/3430e4dd-38e6-4a37-ae77-90080133b97b"
-      (reference "R8") (unit 1) (value "12.7M") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R10") (unit 1) (value "12.7M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/5d00d18b-d30c-4aba-8513-d532618dc371"
-      (reference "R9") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R11") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/63c4fe4d-2f4e-4b3c-a990-4f916aa9930d"
-      (reference "R10") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R12") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/4c7508f6-a275-40c9-9d80-35a0598d72c4"
       (reference "RV1") (unit 1) (value "R_Potentiometer_Trim") (footprint "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical")
@@ -1448,8 +1454,8 @@
     (path "/00000000-0000-0000-0000-000059ed3d7b/07cc0f79-6cfc-4336-80f5-857745f46305/00000000-0000-0000-0000-0000629bf566"
       (reference "U3") (unit 3) (value "TLV2782IDGKR") (footprint "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm")
     )
-    (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/5cbea609-3336-48c5-807b-8f275a8e6dc1"
-      (reference "U4") (unit 1) (value "REF3225AMDBVREP") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+    (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/3ccb3e27-d022-4f68-b9b2-be66e341ab1b"
+      (reference "U4") (unit 1) (value "ADR391") (footprint "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000059ed3d7b/0a00994f-3fc0-414a-8e46-3a4bdcea5eb2/d62bbf6c-bcf2-4b7a-9470-80c869ae73db"
       (reference "U5") (unit 1) (value "INA826") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
