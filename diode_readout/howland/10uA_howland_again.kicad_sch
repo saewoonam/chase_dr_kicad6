@@ -1031,6 +1031,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 899b33ce-2488-455f-9049-21446f4b5f38)
   )
+  (text "2023-02-24:  Change R7 and R8 to 0.1% (from 0.05%) resistors\n b/c of parts shortages"
+    (at 68.58 137.922 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 8ffd1010-e240-4259-9498-37bf8e52f29e)
+  )
 
   (hierarchical_label "I+" (shape output) (at 229.616 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1148,8 +1153,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3ccb3e27-d022-4f68-b9b2-be66e341ab1b)
     (property "Reference" "U4" (id 0) (at 83.693 54.61 0))
-    (property "Value" "" (id 1) (at 83.693 57.15 0))
-    (property "Footprint" "" (id 2) (at 75.438 64.77 0)
+    (property "Value" "ADR391" (id 1) (at 83.693 57.15 0))
+    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering" (id 2) (at 75.438 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 75.438 64.77 0)
