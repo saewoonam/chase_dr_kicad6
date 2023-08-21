@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name HX711_710_711_720-rescue)(type Legacy)(uri ${KIPRJMOD}/HX711_710_711_720-rescue.lib)(options "")(descr ""))
+)

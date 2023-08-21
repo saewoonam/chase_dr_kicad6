@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/nams/Documents/projects/kicad/ADC circuits/HX711_710_711_720/HX711_710_711_720.sch</source>
+    <date>Tuesday, August 17, 2021 at 01:29:39 PM</date>
+    <tool>Eeschema (5.1.5-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HX711_710_711_720.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>HX711</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf</datasheet>
+      <fields>
+        <field name="Description">24-Bit Analog-to-Digital Converter (ADC) for Weigh Scale</field>
+        <field name="Height">1.6</field>
+        <field name="LCSC">C43656</field>
+        <field name="MPN">HX711</field>
+        <field name="Manufacturer_Name">AVIA Semiconductor</field>
+      </fields>
+      <libsource lib="0JLC" part="HX711" description="24-Bit Analog-to-Digital Converter (ADC) for Weigh Scale"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612271F2</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>HX710B</value>
+      <footprint>Package_SO:SOP-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C78447</field>
+        <field name="MPN">HX710B</field>
+      </fields>
+      <libsource lib="0JLC" part="HX710B" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6122A3AE</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>HX710C</value>
+      <footprint>Package_SO:SOP-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C124156</field>
+        <field name="MPN">HX710C</field>
+      </fields>
+      <libsource lib="0JLC" part="HX710C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6122ABF6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>REF3020</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ref3033.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C26804</field>
+        <field name="MPN">REF3020AIDBZR</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="REF3020" description="2.048V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6122B767</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TL431DBZ</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809140322_Changjiang-Electronics-Tech--CJ-CJ431_C3113.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3113</field>
+        <field name="MPN">CJ431</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="TL431DBZ" description="Shunt Regulator, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6122C606</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3906</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2688229</field>
+        <field name="MPN">MMBT3906</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6122D380</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT2222A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8512</field>
+        <field name="MPN">MMBT2222A 1P</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6122F2E7</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>C2297</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C2297</field>
+        <field name="MPN">C2297</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6123004E</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>19-217/GHC-YR1S2/3T</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C72043</field>
+        <field name="MPN">19-217/GHC-YR1S2/3T</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61234609</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LTL-4231</value>
+      <footprint>Diode_THT:D_DO-15_P2.54mm_Vertical_KathodeUp</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61235045</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6123C7EC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6123ED42</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>75</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C4275</field>
+        <field name="MPN">0603WAF750JT5E</field>
+      </fields>
+      <libsource lib="0JLC" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6123FBF9</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>NO</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61240A4C</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>NO</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61243462</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>NO</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61243931</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23025</field>
+        <field name="MPN">0603WAF3000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612454FE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23025</field>
+        <field name="MPN">0603WAF3000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61247C64</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1623</field>
+        <field name="MPN">CL10B474KA8NNNC</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6124A7BD</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>NO</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6124C621</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>NO</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6124DCFC</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>NO</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6124E603</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6125932F</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6125A541</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6125D51C</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="10" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61260A16</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="10" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612616D0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612640B5</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="10" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612640C0</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="10" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612640C9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612658E7</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="10" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612658F2</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="10" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612658FB</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126898B</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="10" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61268996</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="10" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126899F</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126FEC1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10Meg</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7250</field>
+        <field name="MPN">0603WAF1005T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61270D86</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10Meg</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7250</field>
+        <field name="MPN">0603WAF1005T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612711F0</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61271DDE</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10Meg</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7250</field>
+        <field name="MPN">0603WAF1005T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61271DE6</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10Meg</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7250</field>
+        <field name="MPN">0603WAF1005T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61271DEE</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61298972</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10Meg</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7250</field>
+        <field name="MPN">0603WAF1005T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129897A</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10Meg</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7250</field>
+        <field name="MPN">0603WAF1005T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61298982</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129D4CE</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10Meg</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7250</field>
+        <field name="MPN">0603WAF1005T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129D4D6</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10Meg</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C7250</field>
+        <field name="MPN">0603WAF1005T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129D4DE</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C146243</field>
+        <field name="MPN">HDR-TH_3P-P2.54-V</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612B8FD2</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C146243</field>
+        <field name="MPN">HDR-TH_3P-P2.54-V</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612BF232</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C146243</field>
+        <field name="MPN">HDR-TH_3P-P2.54-V</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612C2DEB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C146243</field>
+        <field name="MPN">HDR-TH_3P-P2.54-V</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612C8569</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AQW282SX</value>
+      <footprint>Package_SO:SO-4_4.4x4.3mm_P2.54mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0173EN</datasheet>
+      <fields>
+        <field name="LCSC">C250827</field>
+        <field name="MPN">AQW282SX</field>
+      </fields>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612D6653</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="0JLC" part="1K" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612E02BA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="0JLC" part="100nF" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613583E8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0JLC" part="10">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="LCSC">C22859</field>
+        <field name="MPN">0603WAF100JT5E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="100nF">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="1K">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1K</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="LCSC">C21190</field>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="HX710B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HX710B</field>
+        <field name="Footprint">Package_SO:SOP-8_3.9x4.9mm_P1.27mm</field>
+        <field name="LCSC">C78447</field>
+        <field name="MPN">HX710B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VREF" type="passive"/>
+        <pin num="2" name="AGND" type="passive"/>
+        <pin num="3" name="INN" type="passive"/>
+        <pin num="4" name="INP" type="passive"/>
+        <pin num="5" name="PD_SCK" type="passive"/>
+        <pin num="6" name="DOUT" type="passive"/>
+        <pin num="7" name="DVDD" type="passive"/>
+        <pin num="8" name="AVDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="HX710C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HX710C</field>
+        <field name="Footprint">Package_SO:SOP-8_3.9x4.9mm_P1.27mm</field>
+        <field name="LCSC">C124156</field>
+        <field name="MPN">HX710C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VREF" type="passive"/>
+        <pin num="2" name="AGND" type="passive"/>
+        <pin num="3" name="INN" type="passive"/>
+        <pin num="4" name="INP" type="passive"/>
+        <pin num="5" name="PD_SCK" type="passive"/>
+        <pin num="6" name="DOUT" type="passive"/>
+        <pin num="7" name="DVDD" type="passive"/>
+        <pin num="8" name="AVDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="HX711">
+      <description>24-Bit Analog-to-Digital Converter (ADC) for Weigh Scale</description>
+      <docs>https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">HX711</field>
+        <field name="Footprint">Package_SO:SOP-16_4.55x10.3mm_P1.27mm</field>
+        <field name="Description">24-Bit Analog-to-Digital Converter (ADC) for Weigh Scale</field>
+        <field name="Height">1.6</field>
+        <field name="Manufacturer_Name">AVIA Semiconductor</field>
+        <field name="MPN">HX711</field>
+        <field name="LCSC">C43656</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSUP" type="passive"/>
+        <pin num="2" name="BASE" type="passive"/>
+        <pin num="3" name="AVDD" type="passive"/>
+        <pin num="4" name="VFB" type="passive"/>
+        <pin num="5" name="AGND" type="passive"/>
+        <pin num="6" name="VBG" type="passive"/>
+        <pin num="7" name="INNA" type="passive"/>
+        <pin num="8" name="INPA" type="passive"/>
+        <pin num="9" name="INNB" type="passive"/>
+        <pin num="10" name="INPB" type="passive"/>
+        <pin num="11" name="PD_SCK" type="passive"/>
+        <pin num="12" name="DOUT" type="passive"/>
+        <pin num="13" name="XO" type="passive"/>
+        <pin num="14" name="XI" type="passive"/>
+        <pin num="15" name="RATE" type="passive"/>
+        <pin num="16" name="DVDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0JLC" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NO_Small">
+      <description>Jumper, normally open, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="REF3012">
+      <aliases>
+        <alias>REF3020</alias>
+        <alias>REF3025</alias>
+        <alias>REF3030</alias>
+        <alias>REF3033</alias>
+        <alias>REF3040</alias>
+      </aliases>
+      <description>1.25V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ref3033.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">REF3012</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="TL431DBZ">
+      <description>Shunt Regulator, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL431DBZ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="REF" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="ASSR-1218">
+      <description>Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4</description>
+      <docs>https://docs.broadcom.com/docs/AV02-0173EN</docs>
+      <footprints>
+        <fp>SO*4.4x4.3mm*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ASSR-1218</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x4.3mm_P2.54mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC807">
+      <aliases>
+        <alias>BC808</alias>
+        <alias>BC856</alias>
+        <alias>BC857</alias>
+        <alias>BC858</alias>
+        <alias>BC859</alias>
+        <alias>BC860</alias>
+        <alias>MMBT3906</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, PNP Transistor, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC807.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC807</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0JLC">
+      <uri>/Users/nams/Documents/projects/kicad/libraries/JLC/0JLC.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/Library/Application Support/kicad/library/Reference_Voltage.lib</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>/Library/Application Support/kicad/library/Relay_SolidState.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C5-Pad2)">
+      <node ref="IC1" pin="10"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(IC1-Pad12)">
+      <node ref="J4" pin="1"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad2)">
+      <node ref="IC1" pin="7"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C5-Pad1)">
+      <node ref="IC1" pin="9"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C3-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="10" name="Net-(JP4-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="11" name="Net-(JP5-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="JP5" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(Q1-Pad3)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="C7" pin="1"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="U4" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J4" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D3-Pad1)">
+      <node ref="JP3" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(JP1-Pad2)">
+      <node ref="JP3" pin="2"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(JP6-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="JP6" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="20" name="+3V3">
+      <node ref="IC1" pin="16"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U5" pin="7"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="21" name="/vref">
+      <node ref="U5" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U4" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="JP6" pin="1"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="JP5" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C3-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="24" name="Net-(R23-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R17-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R16-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="27" name="/sig">
+      <node ref="U3" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="28" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="29" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="30" name="Net-(R13-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R12-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="32" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="33" name="Net-(IC1-Pad11)">
+      <node ref="J4" pin="2"/>
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="34" name="Net-(J3-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="35" name="Net-(J3-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="36" name="Net-(J2-Pad1)">
+      <node ref="U5" pin="6"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J2-Pad2)">
+      <node ref="U5" pin="5"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="38" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="39" name="Net-(R6-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+  </nets>
+</export>
