@@ -1,0 +1,4 @@
+Comment,Designator,Footprint,LCSC
+100nF,"C1,C2",C_0402_1005Metric,C1525
+RS2105XN,"U1,U2",MSOP-10_3x3mm_P0.5mm,C237025
+JST_SH_Conn_01x04_i2c_horizontal,"J1,J2,J3",JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,C371588

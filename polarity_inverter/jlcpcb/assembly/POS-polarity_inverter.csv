@@ -1,0 +1,8 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0402_1005Metric,133.3,-117.5,0.0,top
+C2,100nF,C_0402_1005Metric,133.58,-124.1,0.0,top
+J1,JST_SH_Conn_01x04_i2c_horizontal,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,136.4,-113.0,180.0,top
+J2,JST_SH_Conn_01x04_i2c_horizontal,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,126.4,-124.3,270.0,top
+J3,JST_SH_Conn_01x04_i2c_horizontal,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,144.5,-124.6,90.0,top
+U1,RS2105XN,MSOP-10_3x3mm_P0.5mm,135.74,-119.94,270.0,top
+U2,RS2105XN,MSOP-10_3x3mm_P0.5mm,135.8,-126.7,270.0,top
